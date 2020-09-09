@@ -412,7 +412,7 @@ button,
 input,
 select,
 textarea {
-  font-family: Ubuntu, Roboto, 'Open Sans', 'Microsoft YaHei', sans-serif;
+  font-family: Ubuntu, Roboto, 'Noto Sans CJK', 'Open Sans', 'Microsoft YaHei', sans-serif;
 }
 code,
 pre {
@@ -1058,13 +1058,13 @@ a.has-text-grey-lightest:focus {
   font-weight: 700 !important;
 }
 .is-family-primary {
-  font-family: Ubuntu, Roboto, 'Open Sans', 'Microsoft YaHei', sans-serif !important;
+  font-family: Ubuntu, Roboto, 'Noto Sans CJK', 'Open Sans', 'Microsoft YaHei', sans-serif !important;
 }
 .is-family-secondary {
-  font-family: Ubuntu, Roboto, 'Open Sans', 'Microsoft YaHei', sans-serif !important;
+  font-family: Ubuntu, Roboto, 'Noto Sans CJK', 'Open Sans', 'Microsoft YaHei', sans-serif !important;
 }
 .is-family-sans-serif {
-  font-family: Ubuntu, Roboto, 'Open Sans', 'Microsoft YaHei', sans-serif !important;
+  font-family: Ubuntu, Roboto, 'Noto Sans CJK', 'Open Sans', 'Microsoft YaHei', sans-serif !important;
 }
 .is-family-monospace {
   font-family: monospace !important;
@@ -10825,6 +10825,10 @@ article.article .content blockquote.pullquote {
 article.article .content blockquote footer strong + cite {
   margin-left: 0.5em;
 }
+article.article .content a img {
+  margin: auto;
+  display: block;
+}
 article.article .content .message.message-immersive {
   border-radius: 0;
   margin: 0 -1.5rem 1.5rem -1.5rem;
@@ -11244,7 +11248,7 @@ figure.highlight pre {
 }
 figure.highlight pre .line,
 figure.highlight pre code .hljs {
-  line-height: 1.5rem;
+  line-height: 1.4rem;
 }
 figure.highlight figcaption,
 figure.highlight .gutter {
@@ -11254,7 +11258,7 @@ figure.highlight figcaption {
   margin: 0 !important;
   padding: 0.3em 0em 0.3em 0.75em;
   font-style: normal;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 figure.highlight figcaption * {
   color: inherit;
@@ -11436,18 +11440,18 @@ figure.highlight .section {
 @media screen and (min-width: 1280px) {
   .is-1-column .container,
   .is-2-column .container {
-    max-width: 1088px;
-    width: 1088px;
+    max-width: 1152px;
+    width: 1152px;
   }
 }
 @media screen and (min-width: 1472px) {
   .is-2-column .container {
-    max-width: 1280px;
-    width: 1280px;
+    max-width: 1344px;
+    width: 1344px;
   }
   .is-1-column .container {
-    max-width: 1088px;
-    width: 1088px;
+    max-width: 1152px;
+    width: 1152px;
   }
 }
 @media screen and (min-width: 769px), print {
