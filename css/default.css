@@ -10812,6 +10812,7 @@ article.article .content pre {
   font-size: 0.85em;
 }
 article.article .content code {
+  font-size: 0.9em;
   padding: 0;
   background: transparent;
   overflow-wrap: break-word;
@@ -11218,6 +11219,7 @@ figure.highlight {
   position: relative;
   margin: 1em 0 1em !important;
   border-radius: 4px;
+  font-size: 1.05em;
 }
 figure.highlight.folded .highlight-body {
   height: 0;
@@ -11248,6 +11250,7 @@ figure.highlight pre {
 }
 figure.highlight pre .line,
 figure.highlight pre code .hljs {
+  font-size: 1.05em;
   line-height: 1.4rem;
 }
 figure.highlight figcaption,
@@ -11258,7 +11261,7 @@ figure.highlight figcaption {
   margin: 0 !important;
   padding: 0.3em 0em 0.3em 0.75em;
   font-style: normal;
-  font-size: 0.9em;
+  font-size: 1.05em;
 }
 figure.highlight figcaption * {
   color: inherit;
